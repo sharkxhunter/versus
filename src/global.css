@@ -1,0 +1,150 @@
+@import url("/css/satoshi.css");
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+@import url("https://fonts.googleapis.com/css?family=Sora");
+
+#root {
+    min-height: 100vh;
+    /* width: 100vw; */
+}
+
+.min-h-fullvh {
+    min-height: 100vh;
+}
+
+html {
+    background: #fcfcfd !important;
+}
+
+.btn-lg {
+    font-size: 1.5rem !important;
+    padding: 1.5rem 2.5rem !important;
+}
+
+.contact-btn {
+    font-size: 2rem !important;
+    padding: 1rem !important;
+    color:#ED1412 !important;
+    background-color: #FDE8E7 !important;
+}
+
+button {
+    text-transform: none !important;
+}
+
+.bg-purplebrown {
+    background-color: #A4133C !important;
+}
+
+.landing *{
+    font-family: 'Rubik', serif !important;
+    /* color: #4D4D4D; */
+}
+
+.slider-input {
+    background-color: white;
+    border: none;
+    border-radius: .6rem;
+    padding: 1rem;
+    line-height: 1rem;
+    height: 4rem;
+    margin: .5rem;
+    font-size: 0.8rem;
+    box-shadow: 0px 12px 30px rgba(173, 173, 173, 0.25);
+}
+
+.slider-title {
+    margin-top: 5rem;
+    padding: 0 10rem;
+}
+
+.slider-input::placeholder{
+    color: #CCCCCC;
+}
+
+button.slider-input{
+    box-shadow: 0px 12px 30px rgba(173, 173, 173, 0.25);
+}
+
+.slider-input:focus,
+.slider-input:focus-visible
+{
+    border: none;
+    box-shadow: 0px 12px 30px rgba(121, 121, 121, 0.548);
+    outline: 0;
+}
+
+.footer-caption {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    color: #F7F7F7 !important;
+}
+
+.footer-info {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+
+    color: #D1D1D1 !important;
+}
+
+.footer-link-category {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 1.3rem !important;
+    line-height: 24px !important;
+    /* identical to box height */
+
+
+    color: #EEEEEE !important;
+}
+
+.footer-link {
+    font-family: 'Sora' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    line-height: 25px !important;
+
+    color: #D1D1D1 !important;
+
+}
+
+.company-link {
+    padding: 1rem 3rem !important;
+    margin: 1rem 1rem;
+}
+
+.company-link.active {
+    background-color: #A4133C !important;
+    color: white;
+    border-radius: .51rem;
+    text-transform: uppercase;
+}
+
+.company-link-container {
+    border-right: 5px solid #A4133C;
+}
+
+.company-link-caption {
+    font-family: 'Rubik';
+    font-style: bolder;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* grey 20 */
+
+    color: #333333;
+}
+
+.landing .links * {
+    font-weight: bolder !important;
+}
